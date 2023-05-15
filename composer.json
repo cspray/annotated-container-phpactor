@@ -1,0 +1,19 @@
+{
+  "name": "cspray/annotated-container-phpactor",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/cspray/phpactor-container"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "cspray/annotated-container": "dev-main",
+    "phpactor/container": "dev-task/allow-psr-container-2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cspray\\AnnotatedContainerPhpactor\\": "src"
+    }
+  }
+}
